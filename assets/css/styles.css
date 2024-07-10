@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
+body {
+  background-color: #000022;
+}
+
+.planet {
+  color: #ff0000;
+}
+
+.star {
+  color: #ffff00;
+}
+
+.planet .planet-info .planet-earth {
+  transition: transform 0.5s ease-in-out;
+  background-image: url("earth.jpg");
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.planet .planet-info .planet-earthhover {
+  background-color: rgba(255, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+.planet .planet-info .planet-earth h3 {
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.planet .planet-info .planet-earth h3 .anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}/*# sourceMappingURL=styles.css.map */
